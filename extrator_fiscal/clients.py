@@ -9,7 +9,7 @@ class GeminiClient:
     """
     def __init__(self):
         # É uma boa prática configurar a chave da API via variáveis de ambiente
-        api_key = "AIzaSyA8bKUuPTuESQLRssVE4u-uLDPt8vlFCT8"
+        api_key = "AQUI VAI SUA API"
         if not api_key:
             raise ValueError("A variável de ambiente GEMINI_API_KEY não foi configurada.")
         genai.configure(api_key=api_key)
